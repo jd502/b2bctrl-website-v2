@@ -62,7 +62,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/80 to-white" />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-3xl">
-            <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight">
+            <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight">
               Automate{" "}
               <span className="text-[#3399FF]">B2B</span>{" "}
               growth without burning domains or budgets.
