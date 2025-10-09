@@ -40,7 +40,7 @@ export default function Page() {
       </header>
 
       <section id="top" className="relative overflow-hidden">
-        <Image src="/images/orange_dataflow.jpeg" alt="" fill priority className="object-cover object-center" />
+        <Image src="/images/network_map.jpeg" alt="" fill priority className="object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/80 to-white" />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-3xl">
