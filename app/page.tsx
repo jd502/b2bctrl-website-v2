@@ -21,6 +21,24 @@ function Card({ title, children }: { title: string; children: React.ReactNode })
   );
 }
 
+function ProofCard({
+  metric,
+  label,
+  note,
+}: {
+  metric: string;
+  label: string;
+  note: string;
+}) {
+  return (
+    <div className="rounded-2xl border border-neutral-200 p-5 bg-white">
+      <div className="text-4xl font-semibold">{metric}</div>
+      <div className="mt-1 text-neutral-800 font-medium text-lg">{label}</div>
+      <div className="mt-1 text-neutral-600 text-base">{note}</div>
+    </div>
+  );
+}
+
 export default function Page() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 antialiased">
