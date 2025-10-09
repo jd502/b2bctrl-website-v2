@@ -40,7 +40,7 @@ export default function Page() {
       </header>
 
       <section id="top" className="relative overflow-hidden">
-        <Image src="/images/network_map.jpeg" alt="" fill priority className="object-cover object-center" />
+        <Image src="/images/orange_dataflow.jpeg" alt="" fill priority className="object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/80 to-white" />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-3xl">
@@ -65,9 +65,6 @@ export default function Page() {
       </section>
 
       <section id="what" className="relative border-t border-neutral-100 bg-white">
-        <div className="absolute inset-0 opacity-10">
-          <Image src="/images/tech_circuit.jpeg" alt="" fill className="object-cover" />
-        </div>
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-16">
           <h2 className="text-2xl font-semibold tracking-tight">What we do</h2>
           <p className="mt-3 max-w-2xl text-neutral-600">Business‑card simple. Everything you need to start conversations with the right buyers—nothing you don't.</p>
