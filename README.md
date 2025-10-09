@@ -1,0 +1,1 @@
+# B2BCTRL — One‑Pager with images\n\nInstall deps, run dev, deploy on Vercel. Images are wired into hero, what-we-do bg, proof grid, and closing visual.\n
