@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 300">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        font-family: IBMPlexMono-Medium, 'IBM Plex Mono';
+        font-size: 115px;
+        font-weight: 500;
+        isolation: isolate;
+      }
+
+      .st2 {
+        fill: #3f9;
+      }
+    </style>
+  </defs>
+  <rect width="1000" height="300"/>
+  <text class="st1" transform="translate(155 178.69)"><tspan class="st0" x="0" y="0">&gt; </tspan><tspan class="st2" x="138" y="0">B2BCTRL_</tspan></text>
+</svg>
