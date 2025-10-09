@@ -79,17 +79,16 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Proof */}
       <section id="proof" className="border-t border-neutral-100 bg-neutral-50">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-16">
-          <h2 className="text-2xl font-semibold tracking-tight">Selected results</h2>
-          <div className="mt-8 grid sm:grid-cols-3 gap-4">
-            {['network_map.jpeg','city.jpeg','server_room.jpeg'].map((file) => (
-              <div key={file} className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-neutral-200 bg-white">
-                <Image src={`/images/${file}`} alt="" fill className="object-cover hover:scale-[1.03] transition-transform" />
-              </div>
-            ))}
+          <h2 className="text-3xl font-semibold tracking-tight">Selected results</h2>
+          <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <ProofCard metric="+142%" label="Reply lift" note="8-week test, IT services" />
+            <ProofCard metric="41" label="Meetings in 60 days" note="Agency cohort" />
+            <ProofCard metric="<0.25%" label="Bounce rate" note="Across 6 sending pools" />
           </div>
-          <p className="mt-6 text-sm text-neutral-600">References and full case studies available on request.</p>
+          <p className="mt-6 text-base text-neutral-600">References available on request.</p>
         </div>
       </section>
 
