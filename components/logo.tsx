@@ -6,10 +6,10 @@ export default function Logo() {
       <Image
         src="/b2bctrl_logo_dark_w_green.svg"
         alt="B2BCTRL Logo"
-        width={200}
-        height={60}
+        width={140}
+        height={42}
         priority
-        className="rounded-xl"
+        className="rounded-lg"
       />
     </div>
   );
