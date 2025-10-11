@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Logo from '@/components/logo'
 
 const CALENDLY_URL = process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/your-handle/intro';
 const EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'hello@b2bctrl.com';
@@ -45,8 +46,7 @@ export default function Page() {
       <header className="sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/70 border-b border-neutral-100">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-3 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-2">
-            <div className="h-6 w-6 rounded-md bg-neutral-900" />
-            <span className="font-semibold tracking-tight">B2BCTRL</span>
+            <Logo />
           </a>
           <nav className="hidden sm:flex items-center gap-6 text-sm">
             <a href="#what" className="hover:opacity-70">What we do</a>
