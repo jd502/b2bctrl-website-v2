@@ -9,6 +9,7 @@ export default function Logo() {
         width={200}
         height={60}
         priority
+        className="rounded-xl"
       />
     </div>
   );
