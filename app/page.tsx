@@ -112,11 +112,6 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="relative h-[380px] overflow-hidden border-t border-neutral-100">
-        <Image src="/images/tree.jpeg" alt="" fill className="object-cover object-center" />
-        <div className="absolute inset-0 bg-gradient-to-t from-white via-white/40 to-transparent" />
-      </section>
-
       <section id="contact" className="border-t border-neutral-100 bg-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-start">

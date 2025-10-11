@@ -2,7 +2,7 @@
 
 ## Overview
 
-B2BCTRL is a business-card style one-pager website designed to showcase B2B automation services. The application is a modern marketing landing page built with Next.js 15, featuring a clean, professional design with integrated imagery throughout the hero section, background elements, proof points grid, and closing visuals. The site is optimized for deployment on Replit and focuses on lead generation through Calendly integration and email contact.
+B2BCTRL is a business-card style one-pager website designed to showcase B2B automation services. The application is a modern marketing landing page built with Next.js 15, featuring a clean, professional design with integrated hero imagery and a focused flow from value proposition to proof to contact. The site is optimized for deployment on Replit and focuses on lead generation through Calendly integration and email contact.
 
 ## Recent Changes
 
