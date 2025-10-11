@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <div className="flex items-center gap-2">
       <Image
-        src="/b2bctrl_logo.svg"
+        src="/b2bctrl_logo_dark_w_green.svg"
         alt="B2BCTRL Logo"
         width={200}
         height={60}
