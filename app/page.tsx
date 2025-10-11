@@ -144,7 +144,7 @@ export default function Page() {
               alt="B2BCTRL Logo"
               width={100}
               height={30}
-              className="rounded-lg border border-neutral-200"
+              className="rounded-lg border-2 border-neutral-300 shadow-md"
             />
             <span>© {new Date().getFullYear()} B2BCTRL</span>
           </div>
