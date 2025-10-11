@@ -9,7 +9,7 @@ export default function Logo() {
         width={140}
         height={42}
         priority
-        className="rounded-lg"
+        className="rounded-lg border border-neutral-200"
       />
     </div>
   );
