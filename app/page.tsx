@@ -144,7 +144,7 @@ export default function Page() {
       <footer className="border-t border-neutral-100 bg-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-600">
           <div className="flex items-center gap-2">
-            <div className="h-5 w-5 rounded-md bg-neutral-900" />
+            <Logo />
             <span>© {new Date().getFullYear()} B2BCTRL</span>
           </div>
           <div className="flex items-center gap-4">
