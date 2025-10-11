@@ -2,7 +2,24 @@
 
 ## Overview
 
-B2BCTRL is a business-card style one-pager website designed to showcase B2B automation services. The application is a modern marketing landing page built with Next.js 15, featuring a clean, professional design with integrated imagery throughout the hero section, background elements, proof points grid, and closing visuals. The site is optimized for deployment on Vercel and focuses on lead generation through Calendly integration and email contact.
+B2BCTRL is a business-card style one-pager website designed to showcase B2B automation services. The application is a modern marketing landing page built with Next.js 15, featuring a clean, professional design with integrated imagery throughout the hero section, background elements, proof points grid, and closing visuals. The site is optimized for deployment on Replit and focuses on lead generation through Calendly integration and email contact.
+
+## Recent Changes
+
+### Comprehensive Design Refresh (October 11, 2025)
+- **Brand Color System**: Implemented consistent brand blue (#3399FF) across all CTAs, navigation links, and proof metrics for stronger visual identity
+- **Hero Section**: Added darker overlay (from-neutral-900/30) to better balance the orange background image and improve text readability
+- **Typography Hierarchy**: Upgraded headings to text-3xl/4xl with font-bold, increased body text sizes and line-heights for better readability
+- **CTA Buttons**: Redesigned primary CTAs with brand blue background (#3399FF) and hover states (#2b85e6), secondary buttons use outlined style with better borders
+- **Component Polish**: Added subtle shadows (shadow-sm, hover:shadow-md) to all cards, enhanced ProofCard metrics with brand blue color
+- **Spacing & Rhythm**: Standardized section padding (py-20 for major sections), improved vertical spacing consistency throughout
+- **Footer Improvements**: Increased padding (py-16), lightened text color (text-neutral-500), added brand blue link hover effects
+- **Logo Refinement**: Optimized header logo to 140x42px and footer logo to 100x30px for better proportions
+
+### Logo Implementation (October 2025)
+- **Header Logo**: 140x42 pixels with rounded-lg corners using b2bctrl_logo_dark_w_green.svg
+- **Footer Logo**: 100x30 pixels with rounded-lg corners to match footer text scale
+- **Design**: Dark background with green text accent for consistent branding
 
 ## User Preferences
 
