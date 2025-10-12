@@ -15,7 +15,6 @@ B2BCTRL is a business-card style one-pager website designed to showcase B2B auto
 - **Spacing & Rhythm**: Standardized section padding (py-20 for major sections), improved vertical spacing consistency throughout
 - **Footer Improvements**: Increased padding (py-16), lightened text color (text-neutral-500), added brand blue link hover effects
 - **Logo Refinement**: Optimized header logo to 140x42px and footer logo to 100x30px for better proportions
-- **Hero Headline Sizing**: Reduced headline one size (text-3xl sm:text-4xl lg:text-5xl) for better visual balance
 
 ### Logo Implementation (October 2025)
 - **Header Logo**: 140x42 pixels with rounded-lg corners and border using b2bctrl_logo_wht_blue_1pt_bigger.svg (bolder letterforms with enhanced visual weight)
