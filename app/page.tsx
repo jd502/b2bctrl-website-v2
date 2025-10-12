@@ -44,7 +44,7 @@ export default function Page() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 antialiased">
       <header className="sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/70 border-b border-neutral-100">
-        <div className="mx-auto max-w-6xl px-3 sm:px-5 py-3 flex items-center justify-between">
+        <div className="mx-auto max-w-6xl px-2 sm:px-4 py-3 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-2">
             <Logo />
           </a>
@@ -60,7 +60,7 @@ export default function Page() {
       <section id="top" className="relative overflow-hidden">
         <Image src="/images/orange_dataflow.jpeg" alt="" fill priority className="object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/30 via-white/70 to-white" />
-        <div className="relative mx-auto max-w-6xl px-3 sm:px-5 py-24 sm:py-32">
+        <div className="relative mx-auto max-w-6xl px-2 sm:px-4 py-24 sm:py-32">
           <div className="max-w-3xl">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
               Automate{" "}
@@ -85,7 +85,7 @@ export default function Page() {
       </section>
 
       <section id="what" className="relative border-t border-neutral-100 bg-white">
-        <div className="relative mx-auto max-w-6xl px-3 sm:px-5 py-20">
+        <div className="relative mx-auto max-w-6xl px-2 sm:px-4 py-20">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">What we do</h2>
           <p className="mt-4 max-w-2xl text-lg text-neutral-600 leading-relaxed">Business‑card simple. Everything you need to start conversations with the right buyers—nothing you don't.</p>
           <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -101,7 +101,7 @@ export default function Page() {
 
       {/* Proof */}
       <section id="proof" className="border-t border-neutral-100 bg-neutral-50">
-        <div className="mx-auto max-w-6xl px-3 sm:px-5 py-20">
+        <div className="mx-auto max-w-6xl px-2 sm:px-4 py-20">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Selected results</h2>
           <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProofCard metric="+142%" label="Reply lift" note="8-week test, IT services" />
@@ -113,7 +113,7 @@ export default function Page() {
       </section>
 
       <section id="contact" className="border-t border-neutral-100 bg-white">
-        <div className="mx-auto max-w-6xl px-3 sm:px-5 py-20">
+        <div className="mx-auto max-w-6xl px-2 sm:px-4 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Let's talk</h2>
@@ -137,7 +137,7 @@ export default function Page() {
       </section>
 
       <footer className="border-t border-neutral-100 bg-white">
-        <div className="mx-auto max-w-6xl px-3 sm:px-5 py-16 flex flex-col sm:flex-row items-center justify-between gap-6 text-sm text-neutral-500">
+        <div className="mx-auto max-w-6xl px-2 sm:px-4 py-16 flex flex-col sm:flex-row items-center justify-between gap-6 text-sm text-neutral-500">
           <div className="flex items-center gap-2">
             <Image
               src="/b2bctrl_logo_wht_blue.svg"
