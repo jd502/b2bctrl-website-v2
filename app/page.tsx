@@ -54,7 +54,7 @@ export default function Page() {
               <a href="#proof" className="hover:text-[#3399FF] transition-colors">Proof</a>
               <a href="#contact" className="hover:text-[#3399FF] transition-colors">Contact</a>
             </nav>
-            <a href={CALENDLY_URL} className="hidden md:inline-flex items-center rounded-full bg-[#3399FF] text-white px-4 py-1.5 hover:bg-[#2b85e6] transition-colors" target="_blank" rel="noreferrer">Book a call</a>
+            <a href={CALENDLY_URL} className="hidden md:inline-flex items-center rounded-xl bg-[#3399FF] text-white px-4 py-1.5 hover:bg-[#2b85e6] transition-colors" target="_blank" rel="noreferrer">Book a call</a>
           </div>
         </div>
       </header>
