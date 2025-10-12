@@ -17,9 +17,9 @@ B2BCTRL is a business-card style one-pager website designed to showcase B2B auto
 - **Logo Refinement**: Optimized header logo to 140x42px and footer logo to 100x30px for better proportions
 
 ### Logo Implementation (October 2025)
-- **Header Logo**: 140x42 pixels with rounded-lg corners and border using b2bctrl_logo_wht_blue.svg
+- **Header Logo**: 140x42 pixels with rounded-lg corners and border using b2bctrl_logo_wht_blue_1pt_bigger.svg (bolder letterforms with enhanced visual weight)
 - **Footer Logo**: 100x30 pixels with rounded-lg corners and border using b2bctrl_logo_wht_blue.svg
-- **Design**: White/light background with brand blue (#3399FF) text accent and subtle border (border-neutral-200) for consistent visual identity across the site
+- **Design**: White/light background with brand blue (#3399FF) text accent, thicker border (border-2 border-neutral-300), and drop shadow (shadow-md) for prominent visual presence
 
 ## User Preferences
 
