@@ -88,9 +88,11 @@ export default function Page() {
 
       <section id="what" className="relative border-t border-neutral-100 bg-white">
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">What we do</h2>
-          <p className="mt-4 max-w-2xl text-lg text-neutral-600 leading-relaxed">Business‑card simple. Everything you need to start conversations with the right buyers—nothing you don't.</p>
-          <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">What we do</h2>
+            <p className="mt-4 text-lg text-neutral-600 leading-relaxed">Business‑card simple. Everything you need to start conversations with the right buyers—nothing you don't.</p>
+          </div>
+          <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card title="Clean prospect data">De‑duped, validated contacts with light firmographics and buying signals.</Card>
             <Card title="Personalized outreach">Short, plain‑text sequences that sound human and reference real context.</Card>
             <Card title="Safe deliverability">Subdomain strategy, warm‑up, throttling, DMARC/DKIM/SPF, list‑hygiene.</Card>
@@ -104,29 +106,33 @@ export default function Page() {
       {/* Proof */}
       <section id="proof" className="border-t border-neutral-100 bg-neutral-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Selected results</h2>
-          <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Selected results</h2>
+          </div>
+          <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProofCard metric="+142%" label="Reply lift" note="8-week test, IT services" />
             <ProofCard metric="41" label="Meetings in 60 days" note="Agency cohort" />
             <ProofCard metric="<0.25%" label="Bounce rate" note="Across 6 sending pools" />
           </div>
-          <p className="mt-8 text-base text-neutral-500">References available on request.</p>
+          <p className="mt-8 text-base text-neutral-500 text-center">References available on request.</p>
         </div>
       </section>
 
       <section id="contact" className="border-t border-neutral-100 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Let's talk</h2>
+            <p className="mt-4 text-lg text-neutral-600 leading-relaxed">
+              Two ways to start: book a short intro call, or send a sentence about your target and current motion. We'll respond with a quick POV and suggested next step.
+            </p>
+          </div>
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Let's talk</h2>
-              <p className="mt-4 text-lg text-neutral-600 leading-relaxed max-w-prose">
-                Two ways to start: book a short intro call, or send a sentence about your target and current motion. We'll respond with a quick POV and suggested next step.
-              </p>
-              <div className="mt-8 flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a href={CALENDLY_URL} target="_blank" rel="noreferrer" className="inline-flex justify-center rounded-xl bg-[#3399FF] px-6 py-3 text-white font-medium hover:bg-[#2b85e6] transition-colors shadow-sm">Book a call</a>
                 <a href={`mailto:${EMAIL}`} className="inline-flex justify-center rounded-xl border-2 border-neutral-300 px-6 py-3 font-medium hover:border-neutral-400 hover:bg-neutral-50 transition-colors">Email us</a>
               </div>
-              <ul className="mt-8 text-base text-neutral-600 space-y-3 list-disc list-inside">
+              <ul className="mt-8 text-base text-neutral-600 space-y-3 text-center list-none">
                 <li>No commitments—quick fit check.</li>
                 <li>We'll suggest the smallest path to first results.</li>
               </ul>
