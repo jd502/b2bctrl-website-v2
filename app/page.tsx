@@ -63,7 +63,7 @@ export default function Page() {
         <Image src="/images/orange_dataflow.jpeg" alt="" fill priority className="object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/30 via-white/70 to-white" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
-          <div className="max-w-3xl">
+          <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
               Automate{" "}
               <span className="text-[#3399FF]">B2B</span>{" "}
@@ -72,11 +72,11 @@ export default function Page() {
             <p className="mt-6 text-lg sm:text-xl text-neutral-700 leading-relaxed">
               We install a lean outbound engine—clean data, smart personalization, and safe deliverability—that reliably books meetings.
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-3">
+            <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
               <a href={CALENDLY_URL} target="_blank" rel="noreferrer" className="inline-flex justify-center rounded-xl bg-[#3399FF] px-6 py-3 text-white font-medium hover:bg-[#2b85e6] transition-colors shadow-sm">Book a 20‑min intro</a>
               <a href={`mailto:${EMAIL}`} className="inline-flex justify-center rounded-xl border-2 border-neutral-300 px-6 py-3 font-medium hover:border-neutral-400 hover:bg-neutral-50 transition-colors">Email us</a>
             </div>
-            <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
+            <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 max-w-4xl mx-auto">
               <Stat kpi={'3–5%+'} label="Positive reply baseline" />
               <Stat kpi={'<0.3%'} label="Bounce guard" />
               <Stat kpi={'2–4 wks'} label="Time‑to‑first wins" />
