@@ -69,7 +69,7 @@ export default function Page() {
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
               Automate{" "}
-              <span className="text-[#2563eb]">B2B</span>{" "}
+              <span className="text-white">B2B</span>{" "}
               growth without burning domains or budgets.
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-neutral-700 leading-relaxed">
