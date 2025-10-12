@@ -44,16 +44,18 @@ export default function Page() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 antialiased">
       <header className="sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/70 border-b border-neutral-100">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
-          <a href="#top" className="flex items-center gap-2">
-            <Logo />
-          </a>
-          <nav className="hidden sm:flex items-center gap-6 text-sm">
-            <a href="#what" className="hover:text-[#3399FF] transition-colors">What we do</a>
-            <a href="#proof" className="hover:text-[#3399FF] transition-colors">Proof</a>
-            <a href="#contact" className="hover:text-[#3399FF] transition-colors">Contact</a>
-            <a href={CALENDLY_URL} className="inline-flex items-center rounded-full bg-[#3399FF] text-white px-4 py-1.5 hover:bg-[#2b85e6] transition-colors" target="_blank" rel="noreferrer">Book a call</a>
-          </nav>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3">
+          <div className="flex items-center justify-between">
+            <a href="#top" className="flex items-center gap-2">
+              <Logo />
+            </a>
+            <nav className="hidden md:flex items-center gap-8 text-sm absolute left-1/2 -translate-x-1/2">
+              <a href="#what" className="hover:text-[#3399FF] transition-colors">What we do</a>
+              <a href="#proof" className="hover:text-[#3399FF] transition-colors">Proof</a>
+              <a href="#contact" className="hover:text-[#3399FF] transition-colors">Contact</a>
+            </nav>
+            <a href={CALENDLY_URL} className="hidden md:inline-flex items-center rounded-full bg-[#3399FF] text-white px-4 py-1.5 hover:bg-[#2b85e6] transition-colors" target="_blank" rel="noreferrer">Book a call</a>
+          </div>
         </div>
       </header>
 
