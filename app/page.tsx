@@ -49,7 +49,7 @@ export default function Page() {
             <a href="#top" className="flex items-center gap-2">
               <Logo />
             </a>
-            <nav className="hidden md:flex items-center gap-8 text-sm absolute left-1/2 -translate-x-1/2">
+            <nav className="hidden md:flex items-center gap-8 text-base font-semibold absolute left-1/2 -translate-x-1/2">
               <a href="#what" className="hover:text-[#3399FF] transition-colors">What we do</a>
               <a href="#proof" className="hover:text-[#3399FF] transition-colors">Proof</a>
               <a href="#contact" className="hover:text-[#3399FF] transition-colors">Contact</a>
