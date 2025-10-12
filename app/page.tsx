@@ -64,7 +64,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/30 via-white/70 to-white" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="text-sm sm:text-base font-semibold tracking-wider uppercase text-[#FF6B35] mb-4">
+            <div className="text-base sm:text-lg font-semibold tracking-wider uppercase text-[#FF6B35] mb-4">
               B2B Lead Generation
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
