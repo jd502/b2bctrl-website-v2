@@ -6,13 +6,6 @@ B2BCTRL is a business-card style one-pager website designed to showcase B2B auto
 
 ## Recent Changes
 
-### Full-Width Layout Conversion (October 12, 2025)
-- **Layout Architecture**: Converted from max-width constrained design (max-w-6xl) to full-width edge-to-edge layout
-- **Responsive Padding**: Implemented progressive horizontal padding (px-4 sm:px-6 lg:px-12 xl:px-16) across all sections for optimal spacing on all viewport sizes
-- **Sections Updated**: Header navigation, hero, "What we do", "Proof", "Contact", and footer all converted to full-width
-- **Visual Consistency**: Maintained all typography, spacing, brand colors, and component styling from previous design refresh
-- **Rationale**: Provides more modern, immersive design that better utilizes screen real estate while maintaining readability and professional aesthetic
-
 ### Comprehensive Design Refresh (October 11, 2025)
 - **Brand Color System**: Implemented consistent brand blue (#3399FF) across all CTAs, navigation links, and proof metrics for stronger visual identity
 - **Hero Section**: Added darker overlay (from-neutral-900/30) to better balance the orange background image and improve text readability
