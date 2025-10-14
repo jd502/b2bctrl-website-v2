@@ -61,7 +61,7 @@ export default function Page() {
 
       <section id="top" className="relative overflow-hidden">
         <Image src="/images/orange_dataflow.jpeg" alt="" fill priority className="object-cover object-center" />
-        <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/50 via-white/70 to-white" />
+        <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/40 via-white/70 to-white" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-4xl mx-auto text-center">
             <div className="text-lg sm:text-xl font-semibold tracking-wider uppercase text-[#FF8C5A] mb-4">
