@@ -6,6 +6,12 @@ B2BCTRL is a business-card style one-pager website designed to showcase B2B auto
 
 ## Recent Changes
 
+### UI/UX Improvements (October 15, 2025)
+- **Logo Updates**: Replaced header and footer logos with b2bctrl_logo_blue_wht.svg (blue background, white text) and removed borders/shadows for cleaner appearance
+- **Hero Image Opacity**: Adjusted overlay to 30% opacity for better background visibility while maintaining text readability
+- **Orange Accent Color**: Applied #FF8C5A to both "B2B LEAD GENERATION" eyebrow and "B2B" in headline for cohesive color theme
+- **Scroll Position Fix**: Added ScrollToTop component to ensure page always loads at top position, matching the behavior when logo is clicked
+
 ### Comprehensive Design Refresh (October 11, 2025)
 - **Brand Color System**: Implemented consistent brand blue (#3399FF) across all CTAs, navigation links, and proof metrics for stronger visual identity
 - **Hero Section**: Added darker overlay (from-neutral-900/30) to better balance the orange background image and improve text readability
