@@ -151,11 +151,11 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 flex flex-col sm:flex-row items-center justify-between gap-6 text-sm text-neutral-500">
           <div className="flex items-center gap-2">
             <Image
-              src="/b2bctrl_logo_wht_blue.svg"
+              src="/b2bctrl_logo_blue_wht.svg"
               alt="B2BCTRL Logo"
               width={100}
               height={30}
-              className="rounded-lg border-2 border-neutral-300 shadow-md"
+              className="rounded-lg"
             />
             <span>© {new Date().getFullYear()} B2BCTRL</span>
           </div>
