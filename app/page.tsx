@@ -61,7 +61,7 @@ export default function Page() {
 
       <section id="top" className="relative overflow-hidden">
         <Image src="/images/orange_dataflow.jpeg" alt="" fill priority className="object-cover object-center" />
-        <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/40 via-white/70 to-white" />
+        <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/30 via-white/70 to-white" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-4xl mx-auto text-center">
             <div className="text-lg sm:text-xl font-semibold tracking-wider uppercase text-[#FF8C5A] mb-4">
@@ -73,7 +73,7 @@ export default function Page() {
               growth without burning domains or budgets.
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-neutral-700 leading-relaxed">
-              We install a lean outbound engine—clean data, smart personalization, and safe deliverability—that reliably books meetings.
+              We build lean inbound/outbound go-to-market engines — clean data, smart personalization, and safe deliverability — that reliably book meetings.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
               <a href={CALENDLY_URL} target="_blank" rel="noreferrer" className="inline-flex justify-center rounded-xl bg-[#3399FF] px-6 py-3 text-white font-medium hover:bg-[#2b85e6] transition-colors shadow-sm">Book a 20‑min intro</a>
